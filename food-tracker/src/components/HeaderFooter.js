@@ -16,7 +16,7 @@ const HeaderFooter = ({ children }) => {
       </main>
       <footer className="bg-gray-800 text-white py-4 mt-auto">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 TB. Alle Rechte vorbehalten.</p>
+          <p>&copy; TB</p>
         </div>
       </footer>
     </div>

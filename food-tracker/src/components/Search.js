@@ -15,7 +15,7 @@ const Search = () => {
         setError(null);
       } else {
         setProduct(null);
-        setError("Produkt nicht gefunden.");
+        setError("Produkt nicht in der Datenbank gefunden.");
       }
     } catch (err) {
       setError("Ein Fehler ist aufgetreten.");
