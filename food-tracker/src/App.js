@@ -5,8 +5,10 @@ import Search from './components/Search';
 const App = () => {
   return (
     <HeaderFooter>
-      <Search />
-      <p>Willkommen auf meiner Webseite!</p>
+      <div className="container mx-auto py-8">
+        <Search />
+        <p className="mt-8">Willkommen auf meiner Webseite!</p>
+      </div>
     </HeaderFooter>
   );
 };
