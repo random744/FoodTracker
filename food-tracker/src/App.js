@@ -1,9 +1,14 @@
-import './App.css';
+import React from 'react';
+import HeaderFooter from './components/HeaderFooter';
+import Search from './components/Search';
 
-function App() {
+const App = () => {
   return (
-    null
+    <HeaderFooter>
+      <Search />
+      <p>Willkommen auf meiner Webseite!</p>
+    </HeaderFooter>
   );
-}
+};
 
 export default App;
