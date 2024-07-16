@@ -6,7 +6,6 @@ const Search = () => {
   const handleSearch = (event) => {
     event.preventDefault();
     alert(`Suche nach: ${query}`);
-    // Hier kannst du den Suchvorgang implementieren
   };
 
   return (
@@ -15,7 +14,7 @@ const Search = () => {
         type="text"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        placeholder="Suche..."
+        placeholder="Barcode..."
         className="w-full py-2 px-4 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-600"
       />
       <button

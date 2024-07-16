@@ -6,8 +6,8 @@ const App = () => {
   return (
     <HeaderFooter>
       <div className="container mx-auto py-8">
+        <h1 className="text-2xl font-bold">Barcode eintragen</h1>
         <Search />
-        <p className="mt-8">Willkommen auf meiner Webseite!</p>
       </div>
     </HeaderFooter>
   );
